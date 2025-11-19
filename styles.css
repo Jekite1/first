@@ -1,0 +1,141 @@
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+}
+.section {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section__price {
+  gap: 24px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section-header {
+  border: 1px solid black;
+
+  padding: 6px 20px;
+
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.pricedesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px;
+}
+
+.pricing {
+  background-color: white;
+  height: 640px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.pricing__sel {
+  background-color: white;
+  height: 640px;
+  width: 100%;
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.pricing__dark {
+  height: 640px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #151515;
+}
+
+.pricehead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pricename {
+  max-width: 213px;
+}
+
+.button__black {
+  display: flex;
+  background-color: black;
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 36px;
+  width: 100%;
+}
+
+.pricepoint {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.pricepoint-item {
+  display: flex;
+  align-items: center;
+}
+.pricepoint-dot {
+  margin: 0 15px;
+  display: block;
+
+  width: 10px;
+  height: 10px;
+  background-color: #151515;
+}
+
+.button__white {
+  display: flex;
+  background-color: white;
+  color: black;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 36px;
+  width: 100%;
+}
+
+.pricepoint-dot__white {
+  margin: 0 15px;
+  display: block;
+
+  width: 10px;
+  height: 10px;
+  background-color: white;
+}
+
+.pricename__white {
+  color: white;
+}
+.pricepoint-item__white {
+  color: white;
+  display: flex;
+  align-items: center;
+}
