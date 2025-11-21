@@ -114,18 +114,18 @@ h4 {
 .pricing {
   background-color: white;
   height: 640px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
   padding: 40px;
-  max-width: 328px;
 }
 
 .pricing__sel {
   background-color: white;
   height: 640px;
-  max-width: 328px;
+  width: 100%;
   display: flex;
   border: 1px solid black;
   flex-direction: column;
@@ -135,14 +135,14 @@ h4 {
 }
 
 .pricing__dark {
+  background-color: #151515;
   height: 640px;
-  max-width: 328px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
   padding: 40px;
-  background-color: #151515;
 }
 
 .pricehead {
@@ -268,7 +268,7 @@ h4 {
 
 .getstarted {
   display: flex;
-  width: 200px;
+  width: 152px;
   height: 52px;
   flex-direction: row;
   align-items: center;
