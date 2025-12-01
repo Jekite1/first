@@ -36,14 +36,18 @@ h4 {
 .main {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 100px;
   padding: 0px 16px;
-  margin: 130px 0px 0px;
+  margin: 40px 0px 0px;
   max-width: 640px;
+  width: 100%;
 }
 @media screen and (min-width: 1024px) {
   .main {
     max-width: 1024px;
+    margin: 130px 0px 0px;
   }
 }
 
@@ -277,6 +281,19 @@ h4 {
   align-items: center;
   padding: 14px 36px;
   width: 100%;
+  max-width: 360px;
+}
+
+.price-button__white {
+  display: flex;
+  background-color: white;
+  color: black;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 36px;
+  width: 100%;
+  max-width: 360px;
 }
 
 .pricepoint {
@@ -295,17 +312,6 @@ h4 {
   width: 10px;
   height: 10px;
   background-color: #151515;
-}
-
-.price-button__white {
-  display: flex;
-  background-color: white;
-  color: black;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 14px 36px;
-  width: 100%;
 }
 
 .pricepoint-dot__white {
@@ -692,4 +698,70 @@ h4 {
   .footer__third {
     align-items: flex-start;
   }
+}
+
+.nav__account {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 16px;
+  max-width: 1024px;
+}
+
+.account-heading__mobile {
+  font-size: 32px;
+}
+
+@media screen and (min-width: 1024px) {
+  .account-heading__mobile {
+    display: none;
+  }
+}
+
+.account-heading {
+  display: none;
+  font-size: 48px;
+}
+
+@media screen and (min-width: 1024px) {
+  .account-heading {
+    display: block;
+  }
+}
+
+.account {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .account {
+    gap: 120px;
+    max-width: 720px;
+  }
+}
+
+.account-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  margin-top: 120px;
+}
+
+@media screen and (min-width: 1024px) {
+  .account-content {
+    margin-top: 0px;
+  }
+}
+
+.account-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
 }
