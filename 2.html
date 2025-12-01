@@ -1,181 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head class="head">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./styles.css" />
     <title>2</title>
   </head>
-  <body>
-    <nav>
-      <div class="nav">
-        <img src="./imgs/logotype/18dark.png" alt="" />
-        <img src="./imgs/uiElements/icons/sandwich.svg" alt="" />
+  <body class="body">
+    <nav class="nav">
+      <img src="./imgs/logotype/18dark.png" alt="" />
+      <img
+        class="humburger"
+        src="./imgs/uiElements/icons/sandwich.svg"
+        alt=""
+      />
+      <div class="nav-desktop">
+        <div class="nav-tabs">
+          <a class="nav-tab">About Us</a>
+          <a class="nav-tab">How it work</a>
+          <a class="nav-tab">Pricing</a>
+          <a class="nav-tab">FAQs</a>
+        </div>
+        <div class="nav-buttons">
+          <a href="https://www.template.net/employee" class="nav-button"
+            >Login</a
+          >
+          <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            class="nav-button__black"
+            >Sign Up</a
+          >
+        </div>
       </div>
     </nav>
 
-    <main>
+    <main class="main">
       <header class="header">
-        <div class="headerdesc">
-          <h1 class="header__heading">
-            Always Track & Analyze Your Business Statistics To Succeed.
-          </h1>
-          <p>
-            A better way to manage your sales, team, clients & marketing — on a
-            single platform. Powerful, affordable & easy.
-          </p>
-        </div>
-        <div class="headerstart">
-          <div class="headermail">
-            <input
-              type="text"
-              placeholder="Enter your email"
-              class="mailenter"
-            />
-            <a href="https://www.template.net/employee" class="getstarted"
-              >Get started</a
-            >
+        <div class="header-content">
+          <div class="headerdesc">
+            <h1 class="header__heading">
+              Always Track & Analyze Your Business Statistics To Succeed.
+            </h1>
+            <p>
+              A better way to manage your sales, team, clients & marketing — on
+              a single platform. Powerful, affordable & easy.
+            </p>
           </div>
-          <div class="headerpay">
-            <img src="./imgs/uiElements/methods/visa.svg" alt="" />
-            <img src="./imgs/uiElements/methods/mastercard.svg" alt="" />
-            <img src="./imgs/uiElements/methods/paypal.svg" alt="" />
+          <div class="headerstart">
+            <div class="email">
+              <input
+                type="text"
+                placeholder="Enter your email"
+                class="mailenter"
+              />
+              <a href="https://www.template.net/employee" class="button-email"
+                >Get started</a
+              >
+            </div>
+            <div class="headerpay">
+              <img src="./imgs/uiElements/methods/visa.svg" alt="" />
+              <img src="./imgs/uiElements/methods/mastercard.svg" alt="" />
+              <img src="./imgs/uiElements/methods/paypal.svg" alt="" />
+            </div>
           </div>
         </div>
+        <img class="header-img" src="./imgs/illustrations/ladder.svg" alt="" />
       </header>
       <div class="sections">
         <section class="section">
-          <h2 class="section-header">About Us</h2>
           <div class="section-content">
-            <h3>Faster, friendlier feedback loops make life easier.</h3>
-            <p>
-              Add a Viewer to your team so they can see everything you share, or
-              invite people to individual documents. It’s up to you.
-              Stakeholders can check out designs in their web browser, test
-              prototypes and leave feedback for free.
-            </p>
-          </div>
-          <img
-            src="./imgs/illustrations/earthfcker.svg"
-            class="section_img"
-            alt=""
-          />
-
-          <ul class="pricepoint">
-            <li class="pricepoint-item">
-              <span class="pricepoint-dot"></span>Shared Cloud Libraries, for a
-              single source of truth
-            </li>
-            <li class="pricepoint-item">
-              <span class="pricepoint-dot"></span>Prototype previews for user
-              testing and research
-            </li>
-            <li class="pricepoint-item">
-              <span class="pricepoint-dot"></span>Easy organization with
-              projects
-            </li>
-            <li class="pricepoint-item">
-              <span class="pricepoint-dot"></span>Free developer handoff, right
-              inside the browser
-            </li>
-            <li class="pricepoint-item">
-              <span class="pricepoint-dot"></span>Two-factor authentication and
-              SSO
-            </li>
-          </ul>
-        </section>
-
-        <section class="section">
-          <h2 class="section-header">How it works</h2>
-
-          <h3>Building the best space for collaboration.</h3>
-
-          <img
-            src="./imgs/illustrations/chinila.svg"
-            alt=""
-            class="section_img"
-          />
-
-          <div class="steps">
-            <div class="step">
-              <img
-                class="step-image"
-                src="./imgs/uiElements/icons/puzzle.svg"
-                alt=""
-              />
-              <div class="step-text">
-                <h4 class="step-heading">Shared Cloud Libraries</h4>
-                <p class="step-paragraph">
-                  Navigate to the Your work panel in the left sidebar. Select
-                  the library you want to share. Select the Share icon in the
-                  upper right to share the library.
+            <img
+              src="./imgs/illustrations/earthfcker.svg"
+              class="section_img__desktop"
+              alt=""
+            />
+            <div class="section_desc">
+              <h2 class="section-header">About Us</h2>
+              <div class="section-text">
+                <h3>Faster, friendlier feedback loops make life easier.</h3>
+                <p>
+                  Add a Viewer to your team so they can see everything you
+                  share, or invite people to individual documents. It’s up to
+                  you. Stakeholders can check out designs in their web browser,
+                  test prototypes and leave feedback for free.
                 </p>
               </div>
-            </div>
-            <div class="step">
+
               <img
-                class="step-image"
-                src="./imgs/uiElements/icons/dev.svg"
+                src="./imgs/illustrations/earthfcker.svg"
+                class="section_img"
                 alt=""
               />
-              <div class="step-text">
-                <h4 class="step-heading">
-                  Free developer handoff, right inside
-                </h4>
-                <p class="step-paragraph">
-                  Cloud Inspector makes it easy for developers to get the
-                  information they need to turn pixels into code — all in the
-                  browser and, most importantly, for free.
-                </p>
-              </div>
-            </div>
-            <div class="step">
-              <img
-                class="step-image"
-                src="./imgs/uiElements/icons/rocket.svg"
-                alt=""
-              />
-              <div class="step-text">
-                <h4 class="step-heading">Real-time collaborative editing</h4>
-                <p class="step-paragraph">
-                  Room Service helps you build real-time collaborative features.
-                  Add real-time data sync! Let users edit the same data at the
-                  same time.
-                </p>
-              </div>
-            </div>
-            <div class="step">
-              <img
-                class="step-image"
-                src="./imgs/uiElements/icons/box.svg"
-                alt=""
-              />
-              <div class="step-text">
-                <h4 class="step-heading">Integrations with the Cloud API</h4>
-                <p class="step-paragraph">
-                  Unlocking that value requires an iPaaS that delivers the
-                  transformative power of APIs and integration.
-                </p>
-              </div>
+
+              <ul class="pricepoint">
+                <li class="pricepoint-item">
+                  <span class="pricepoint-dot"></span>Shared Cloud Libraries,
+                  for a single source of truth
+                </li>
+                <li class="pricepoint-item">
+                  <span class="pricepoint-dot"></span>Prototype previews for
+                  user testing and research
+                </li>
+                <li class="pricepoint-item">
+                  <span class="pricepoint-dot"></span>Easy organization with
+                  projects
+                </li>
+                <li class="pricepoint-item">
+                  <span class="pricepoint-dot"></span>Free developer handoff,
+                  right inside the browser
+                </li>
+                <li class="pricepoint-item">
+                  <span class="pricepoint-dot"></span>Two-factor authentication
+                  and SSO
+                </li>
+              </ul>
             </div>
           </div>
         </section>
+
         <section class="section">
-          <h2 class="section-header">PRICING</h2>
-          <div class="priceing_cards">
-            <div class="section__price__desc">
-              <h3>Select a membership level the right price for you.</h3>
-              <p>
-                Prices listed in USD. Taxes may apply. By using program you
-                agree to our terms and policies.
-              </p>
+          <div class="section-content">
+            <div class="section_desc">
+              <h2 class="section-header">How it works</h2>
+              <h3>Building the best space for collaboration.</h3>
+
+              <img
+                src="./imgs/illustrations/chinila.svg"
+                alt=""
+                class="section_img"
+              />
+
+              <div class="steps">
+                <div class="step">
+                  <img
+                    class="step-image"
+                    src="./imgs/uiElements/icons/puzzle.svg"
+                    alt=""
+                  />
+                  <div class="step-text">
+                    <h4 class="step-heading">Shared Cloud Libraries</h4>
+                    <p class="step-paragraph">
+                      Navigate to the Your work panel in the left sidebar.
+                      Select the library you want to share. Select the Share
+                      icon in the upper right to share the library.
+                    </p>
+                  </div>
+                </div>
+                <div class="step">
+                  <img
+                    class="step-image"
+                    src="./imgs/uiElements/icons/dev.svg"
+                    alt=""
+                  />
+                  <div class="step-text">
+                    <h4 class="step-heading">
+                      Free developer handoff, right inside
+                    </h4>
+                    <p class="step-paragraph">
+                      Cloud Inspector makes it easy for developers to get the
+                      information they need to turn pixels into code — all in
+                      the browser and, most importantly, for free.
+                    </p>
+                  </div>
+                </div>
+                <div class="step">
+                  <img
+                    class="step-image"
+                    src="./imgs/uiElements/icons/rocket.svg"
+                    alt=""
+                  />
+                  <div class="step-text">
+                    <h4 class="step-heading">
+                      Real-time collaborative editing
+                    </h4>
+                    <p class="step-paragraph">
+                      Room Service helps you build real-time collaborative
+                      features. Add real-time data sync! Let users edit the same
+                      data at the same time.
+                    </p>
+                  </div>
+                </div>
+                <div class="step">
+                  <img
+                    class="step-image"
+                    src="./imgs/uiElements/icons/box.svg"
+                    alt=""
+                  />
+                  <div class="step-text">
+                    <h4 class="step-heading">
+                      Integrations with the Cloud API
+                    </h4>
+                    <p class="step-paragraph">
+                      Unlocking that value requires an iPaaS that delivers the
+                      transformative power of APIs and integration.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
+            <img
+              src="./imgs/illustrations/chinila.svg"
+              alt=""
+              class="section_img__desktop"
+            />
+          </div>
+        </section>
+        <section class="section">
+          <div class="section-content">
             <img
               src="./imgs/illustrations/svin.svg"
               alt=""
-              class="section_img"
+              class="section_img__desktop"
             />
+            <div class="section_desc">
+              <h2 class="section-header">PRICING</h2>
+              <div class="section-text">
+                <h3>Select a membership level the right price for you.</h3>
+                <p>
+                  Prices listed in USD. Taxes may apply. By using program you
+                  agree to our terms and policies.
+                </p>
+                <img
+                  src="./imgs/illustrations/svin.svg"
+                  alt=""
+                  class="section_img"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="priceing-cards">
             <div class="pricing__sel">
               <div class="pricedesc">
                 <div class="pricehead">
@@ -200,7 +254,7 @@
               </div>
               <a
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                class="button__black"
+                class="price-button__black"
                 >Join</a
               >
             </div>
@@ -237,7 +291,7 @@
               </div>
               <a
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                class="button__white"
+                class="price-button__white"
                 >Join</a
               >
             </div>
@@ -271,144 +325,177 @@
               </div>
               <a
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                class="button__black"
+                class="price-button__black"
                 >Join</a
               >
             </div>
           </div>
         </section>
         <section class="section">
-          <h2 class="section-header">faqs</h2>
           <div class="section-content">
-            <h3>Common Questions</h3>
-            <p>
-              The online form also provides links to a set of frequently asked
-              questions, other information materials related to the financial
-              disclosure programme.
-            </p>
+            <dev class="section_desc">
+              <h2 class="section-header">faqs</h2>
+              <div class="section-text">
+                <h3>Common Questions</h3>
+                <p>
+                  The online form also provides links to a set of frequently
+                  asked questions, other information materials related to the
+                  financial disclosure programme.
+                </p>
+                <img
+                  src="./imgs/illustrations/question.svg"
+                  alt=""
+                  class="section_img"
+                />
+              </div>
+              <div class="faqs">
+                <div class="faq">
+                  <div class="faq-box">
+                    <div class="faq-content">
+                      <div class="faq-header">
+                        <h4 class="faq-header-text">
+                          How much does a Teams subscription cost?
+                        </h4>
+                        <img src="./imgs/uiElements/icons/plus.svg" alt="" />
+                      </div>
+                      <p class="faq-text">
+                        Contributors are members of your team who need access to
+                        use the Mac app to create and edit Sketch documents.
+                        These prices don’t include sales tax, which may still
+                        apply. Head over to our pricing page to get full
+                        details.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="faq">
+                  <div class="faq-box">
+                    <div class="faq-content">
+                      <div class="faq-header">
+                        <h4 class="faq-header-text">
+                          Do I still need to purchase licenses for the Mac app?
+                        </h4>
+                        <img src="./imgs/uiElements/icons/minus.svg" alt="" />
+                      </div>
+                      <p class="faq-text"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="faq">
+                  <div class="faq-box">
+                    <div class="faq-content">
+                      <div class="faq-header">
+                        <h4 class="faq-header-text">
+                          What are the differences between Contributors and
+                          Viewers?
+                        </h4>
+                        <img src="./imgs/uiElements/icons/minus.svg" alt="" />
+                      </div>
+                      <p class="faq-text"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="faq">
+                  <div class="faq-box">
+                    <div class="faq-content">
+                      <div class="faq-header">
+                        <h4 class="faq-header-text">
+                          How long does the free Teams subscription trial last?
+                        </h4>
+                        <img src="./imgs/uiElements/icons/minus.svg" alt="" />
+                      </div>
+                      <p class="faq-text"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="faq">
+                  <div class="faq-box__last">
+                    <div class="faq-content">
+                      <div class="faq-header">
+                        <h4 class="faq-header-text">
+                          Will program for Teams replace volume licensing?
+                        </h4>
+                        <img src="./imgs/uiElements/icons/minus.svg" alt="" />
+                      </div>
+                      <p class="faq-text"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </dev>
             <img
               src="./imgs/illustrations/question.svg"
               alt=""
-              class="section_img"
+              class="section_img__desktop"
             />
-          </div>
-          <div class="faqs">
-            <div class="faq">
-              <div class="faq-box">
-                <div class="faq-content">
-                  <div class="faq-header">
-                    <h4 class="faq-header-text">
-                      How much does a Teams subscription cost?
-                    </h4>
-                    <img src="./imgs/uiElements/icons/plus.svg" alt="" />
-                  </div>
-                  <p class="faq-text">
-                    Contributors are members of your team who need access to use
-                    the Mac app to create and edit Sketch documents. These
-                    prices don’t include sales tax, which may still apply. Head
-                    over to our pricing page to get full details.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="faq">
-              <div class="faq-box">
-                <div class="faq-content">
-                  <div class="faq-header">
-                    <h4 class="faq-header-text">
-                      Do I still need to purchase licenses for the Mac app?
-                    </h4>
-                    <img src="./imgs/uiElements/icons/minus.svg" alt="" />
-                  </div>
-                  <p class="faq-text"></p>
-                </div>
-              </div>
-            </div>
-            <div class="faq">
-              <div class="faq-box">
-                <div class="faq-content">
-                  <div class="faq-header">
-                    <h4 class="faq-header-text">
-                      What are the differences between Contributors and Viewers?
-                    </h4>
-                    <img src="./imgs/uiElements/icons/minus.svg" alt="" />
-                  </div>
-                  <p class="faq-text"></p>
-                </div>
-              </div>
-            </div>
-            <div class="faq">
-              <div class="faq-box">
-                <div class="faq-content">
-                  <div class="faq-header">
-                    <h4 class="faq-header-text">
-                      How long does the free Teams subscription trial last?
-                    </h4>
-                    <img src="./imgs/uiElements/icons/minus.svg" alt="" />
-                  </div>
-                  <p class="faq-text"></p>
-                </div>
-              </div>
-            </div>
-            <div class="faq">
-              <div class="faq-box__last">
-                <div class="faq-content">
-                  <div class="faq-header">
-                    <h4 class="faq-header-text">
-                      Will program for Teams replace volume licensing?
-                    </h4>
-                    <img src="./imgs/uiElements/icons/minus.svg" alt="" />
-                  </div>
-                  <p class="faq-text"></p>
-                </div>
-              </div>
-            </div>
           </div>
         </section>
       </div>
     </main>
     <footer class="footer">
-      <div class="logo">
-        <img src="./imgs/logotype/18light.png" alt="" />
-      </div>
-      <div class="footer-email">
-        <h3 class="footer-email__text">Want to recieve our awesome stories?</h3>
-        <div class="headermail">
-          <input type="text" placeholder="Enter your email" class="mailenter" />
-          <a href="https://www.template.net/employee" class="getstarted"
-            >Subscribe</a
-          >
+      <div class="footer-content">
+        <div class="footer__up">
+          <div class="footer__first">
+            <div class="logo">
+              <img src="./imgs/logotype/18light.png" alt="" />
+            </div>
+            <div class="footer-email">
+              <h3 class="footer-email__text">
+                Want to recieve our awesome stories?
+              </h3>
+              <div class="email">
+                <input
+                  type="text"
+                  placeholder="Enter your email"
+                  class="mailenter"
+                />
+                <a href="https://www.template.net/employee" class="button-email"
+                  >Subscribe</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="footer__second">
+            <div class="footer-links">
+              <p class="footer-link">About us</p>
+              <p class="footer-link">How it works</p>
+              <p class="footer-link">Pricing</p>
+              <p class="footer-link">FAQs</p>
+            </div>
+          </div>
+          <div class="footer__third">
+            <div class="footer-links">
+              <p class="footer-link">Lead generation</p>
+              <p class="footer-link">Customer engagement</p>
+              <p class="footer-link">Customer support</p>
+              <p class="footer-link">Help Center Articles</p>
+              <p class="footer-link">Outbound Messages</p>
+            </div>
+            <div class="footer-links">
+              <h4 class="footer-link__heading">Email</h4>
+              <p class="footer-link__alt">info@the18.design</p>
+              <p class="footer-link__alt__desktop">info@the18.design</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="footer-links">
-        <p class="footer-link">About us</p>
-        <p class="footer-link">How it works</p>
-        <p class="footer-link">Pricing</p>
-        <p class="footer-link">FAQs</p>
-      </div>
-      <div class="footer-links">
-        <p class="footer-link">Lead generation</p>
-        <p class="footer-link">Customer engagement</p>
-        <p class="footer-link">Customer support</p>
-        <p class="footer-link">Help Center Articles</p>
-        <p class="footer-link">Outbound Messages</p>
-      </div>
-      <div class="footer-links">
-        <h4 class="footer-link__heading">Email</h4>
-        <p class="footer-link__alt">info@the18.design</p>
-      </div>
-      <div class="social">
-        <img src="./imgs/uiElements/social/facebook.svg" alt="" />
-        <img src="./imgs/uiElements/social/twitter.svg" alt="" />
-        <img src="./imgs/uiElements/social/google.svg" alt="" />
-        <img src="./imgs/uiElements/social/in.svg" alt="" />
-        <img src="./imgs/uiElements/social/youtube.svg" alt="" />
-      </div>
-      <div class="footer-links">
-        <p class="footer-link__alt">
-          © The 18 Design, <br />
-          All rights reserved.
-        </p>
+        <div class="footer__down">
+          <div class="social">
+            <img src="./imgs/uiElements/social/facebook.svg" alt="" />
+            <img src="./imgs/uiElements/social/twitter.svg" alt="" />
+            <img src="./imgs/uiElements/social/google.svg" alt="" />
+            <img src="./imgs/uiElements/social/in.svg" alt="" />
+            <img src="./imgs/uiElements/social/youtube.svg" alt="" />
+          </div>
+          <div class="footer-links">
+            <p class="footer-link__alt">
+              © The 18 Design, <br />
+              All rights reserved.
+            </p>
+            <p class="footer-link__alt__desktop">
+              © The 18 Design, All rights reserved.
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
