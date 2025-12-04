@@ -337,6 +337,7 @@ h4 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding: 15px 16px;
   max-width: 1024px;
@@ -400,7 +401,7 @@ h4 {
   background-color: black;
   width: max-content;
   padding: 14px 20px;
-  max-width: fit-content;
+  max-width: max-content;
   color: white;
 }
 
